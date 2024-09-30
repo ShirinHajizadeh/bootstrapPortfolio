@@ -119,7 +119,7 @@ span{
 }
 
 /* ---------------------------------------------------- Footer Section ---------------------------------------------------- */
-footer{ 
+.footerContainer{ 
     background: linear-gradient( to left,#B9A89D, #FEFEFE, #E4D8D1, #B9A89D );
 }
 
@@ -158,7 +158,7 @@ footer{
 
 /* ---------------------------------------------------- About Me Page ---------------------------------------------------- */
 .aboutText{
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: justify;
 }
 
@@ -168,7 +168,7 @@ footer{
     height: 20px;
     padding: 0px 15px 0px 0px;
     margin-bottom: 20px;
-    background: #000;
+    background: linear-gradient( to left,#000, #B9A89D, #000 );    
     text-align: right;
     font-size: 12px;
     font-weight: 600;
@@ -220,3 +220,12 @@ footer{
   #Microsoft-div {
     width: 82%;
   }
+
+  .pageIcon{
+    width: 80px;
+    height: 80px;
+    padding: 10px 5px 10px 0px;
+
+
+      }
+    
