@@ -1,17 +1,10 @@
 
-#now{
-    color: red;
-    text-align: center;
-    font-size:larger;
-    font-weight: bolder;
-    }
-
 h2{
     color: #FEFEFE;        
     text-shadow: 1px 1px 2px #000;
-    padding-bottom: 10px;        
-    
+    padding-bottom: 10px;    
 }
+
 /* ---------------------------------------------------- Header Section ---------------------------------------------------- */
 .nav-link {
     display: block;
