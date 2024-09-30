@@ -6,14 +6,12 @@
     font-weight: bolder;
     }
 
-    h2{
-        color: #FEFEFE;
-        
-            text-shadow: 1px 1px 2px #000;
-            padding-bottom: 10px;
-        
+h2{
+    color: #FEFEFE;        
+    text-shadow: 1px 1px 2px #000;
+    padding-bottom: 10px;        
     
-    }
+}
 /* ---------------------------------------------------- Header Section ---------------------------------------------------- */
 .nav-link {
     display: block;
@@ -28,7 +26,7 @@
 }
 
 .nav-link:hover{
-    background-color: #B9A89D;
+    background-color: #D5D0D9;
     color: #FEFEFE;
     font-weight: 500;
     text-shadow: 1px 2px 3px var(--bs-heading-color);
@@ -39,17 +37,17 @@
 }
 
 .nav-link:visited{
-    color: #B9A89D;
-    text-shadow: 1px 2px 3px #000;
+    color: #000;
+    text-shadow: 1px 2px 3px #D5D0D9;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: var(--bs-heading-color);
-    background-color: #B9A89D;
+    background-color: #D5D0D9;
 }
 /* ---------------------------------------------------- Body Section ---------------------------------------------------- */
 .headerContainer{ 
-    background: linear-gradient( to left,#B9A89D, #FEFEFE, #E4D8D1, #B9A89D );
+    background: linear-gradient( to left,#D7D2DB, #FEFEFE, #E0DEE7, #D7D2DB );
     padding: 40px 40px 0px 40px;
     margin-bottom: 40px;
 }
@@ -83,6 +81,7 @@ span{
 
 .fw-normal {
     font-weight: bold !important;
+    font-size: 14px;
 }
 
 .imgIcon{
@@ -101,7 +100,7 @@ span{
     --bs-btn-bg: #FEFEFE;
     --bs-btn-border-color: #FEFEFE;
     --bs-btn-hover-color: var(--bs-heading-color);
-    --bs-btn-hover-bg: #B9A89D;
+    --bs-btn-hover-bg: #D5D0D9;
     --bs-btn-hover-border-color:#D5D0D9;
     --bs-btn-focus-shadow-rgb: 130, 138, 145;
     --bs-btn-active-color: #fff;
@@ -111,16 +110,15 @@ span{
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #6c757d;
     --bs-btn-disabled-border-color: #D5D0D9;
-
 }
+
 .btn-secondary:hover{
     text-shadow: 1px 1px 2px #fff;
-
 }
 
 /* ---------------------------------------------------- Footer Section ---------------------------------------------------- */
 .footerContainer{ 
-    background: linear-gradient( to left,#B9A89D, #FEFEFE, #E4D8D1, #B9A89D );
+    background: linear-gradient( to left,#D5D0D9, #FEFEFE, #E0DEE7, #D5D0D9);
 }
 
 .icon-content a {
@@ -130,7 +128,7 @@ span{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: #B9A89D;
+    background-color: #D5D0D9;
     transition: all 0.3s ease-in-out;
     margin: 10px;
 }
@@ -148,12 +146,12 @@ span{
 /* ---------------------------------------------------- All Page ---------------------------------------------------- */
 .pageContainer{
     padding: 40px;
-    background: linear-gradient( to left, #E4D8D1,#FEFEFE, #B9A89D );
+    background: linear-gradient( to left, #E0DEE7,#FEFEFE, #D5D0D9 );
 
 }
 
 .pageImg{
-    padding-top: 40px;
+    padding-top: 100px;
 }
 
 /* ---------------------------------------------------- About Me Page ---------------------------------------------------- */
@@ -168,64 +166,63 @@ span{
     height: 20px;
     padding: 0px 15px 0px 0px;
     margin-bottom: 20px;
-    background: linear-gradient( to left,#000, #B9A89D, #000 );    
+    background: linear-gradient( to left,#000, #D5D0D9, #000 );    
     text-align: right;
     font-size: 12px;
     font-weight: 600;
     border-radius: 10px;
     color: #FEFEFE;
-  }
+}
   
 
 #HTML-div {
     width: 82%;
-  }
+}
   
-  #CSS-div {
+#CSS-div {
     width: 80%;
-  }
+}
   
-  #JS-div {
+#JS-div {
     width: 38%;
-  }
+}
   
-  #PHP-div {
+#PHP-div {
     width: 38%;
-  }
+}
 
-  #UI-div {
+#UI-div {
     width: 45%;
-  }
+}
   
-  #Wordpress-div {
+#Wordpress-div {
     width: 45%;
-  }
+}
   
-  #MySQL-div {
+#MySQL-div {
     width: 45%;
-  }
+}
   
-  #GitHub-div {
-    width: 50%;
-  }
-  
-  #SEO-div {
-    width: 45%;
-  }
-  
-  #Network-div {
+#GitHub-div {
     width: 38%;
-  }
+}
   
-  #Microsoft-div {
+#SEO-div {
+    width: 45%;
+}
+  
+#Network-div {
+    width: 38%;
+}
+  
+#Microsoft-div {
     width: 82%;
-  }
+}
 
-  .pageIcon{
+/* ---------------------------------------------------- Artistic Skill & Hobby Page ---------------------------------------------------- */
+.pageIcon{
     width: 80px;
     height: 80px;
     padding: 10px 5px 10px 0px;
-
-
-      }
+}
     
